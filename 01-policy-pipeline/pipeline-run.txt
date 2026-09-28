@@ -1,0 +1,17 @@
+Processing data/policies/policy_commercial_001.txt...
+  Extraction completed: SUCCESS (confidence: 0.94)
+  Reviewer agreement: 100%
+  Routing decision: AUTO_APPROVE
+
+Processing data/policies/policy_homeowners_002.txt...
+  Extraction completed: SUCCESS (confidence: 0.91)
+  Reviewer agreement: 100%
+  Routing decision: AUTO_APPROVE
+
+Processing data/policies/policy_auto_003.txt...
+  Extraction completed: ESCALATED (missing required deductible)
+  Reviewer agreement: DISAGREEMENT (field: deductible)
+  Routing decision: HUMAN_REVIEW
+
+Pipeline complete: 3 policies processed. Auto-approved: 2, Human Review: 1.
+Routing decisions written to routing_decisions.json.

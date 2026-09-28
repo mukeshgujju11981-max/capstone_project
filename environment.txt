@@ -1,0 +1,10 @@
+=== Python Version ===
+3.13.0 (main, Dec  3 2024, 02:26:48) [GCC 12.2.0]
+
+=== OS Information ===
+Linux-6.6.97+-x86_64-with-glibc2.36
+
+=== Virtual Environment Setup ===
+Virtual environment active at /opt/venv.
+Each project solution installed in editable mode using:
+pip install -e ".[dev]" inside each respective solution directory.

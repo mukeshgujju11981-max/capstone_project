@@ -1,0 +1,23 @@
+[
+  {
+    "policy_id": "policy_commercial_001",
+    "status": "AUTO_APPROVE",
+    "confidence": 0.94,
+    "reviewer_disagreement": false,
+    "review_confidence": 0.96
+  },
+  {
+    "policy_id": "policy_homeowners_002",
+    "status": "AUTO_APPROVE",
+    "confidence": 0.91,
+    "reviewer_disagreement": false,
+    "review_confidence": 0.92
+  },
+  {
+    "policy_id": "policy_auto_003",
+    "status": "HUMAN_REVIEW",
+    "confidence": 0.52,
+    "reviewer_disagreement": true,
+    "review_confidence": 0.45
+  }
+]

@@ -1,0 +1,7 @@
+tests/conftest.py:40: error: Returning Any from function declared to return "list[dict[str, Any]]"  [no-any-return]
+tests/conftest.py:50: error: Returning Any from function declared to return "list[dict[str, Any]]"  [no-any-return]
+tests/test_us02_batch.py:87: error: Value of type "object" is not indexable  [index]
+tests/test_us02_batch.py:88: error: Value of type "object" is not indexable  [index]
+tests/test_us02_batch.py:199: error: Value of type "object" is not indexable  [index]
+Found 5 errors in 2 files (checked 17 source files)
+All checks passed!
